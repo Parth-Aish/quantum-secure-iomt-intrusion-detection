@@ -160,28 +160,3 @@ streamlit run .\demo\app.py
 The interface is illustrative, assumes precomputed models, and includes
 displayed latency/memory figures; it is not a deployment benchmark or a
 clinical/security product.
-
-## Limitations and threats to validity
-
-- The preprocessing and evaluation caveats in
-  [`docs/methodology.md`](docs/methodology.md) limit the “leak-free” and
-  future-generalization claims.
-- The reported metrics have not been reproduced in this staged repository.
-- The custom annotated CSV's creation process, official acquisition URL, and
-  license are unknown.
-- Existing statistical significance records point to a log not present in the
-  project folder; do not cite them as independently verified here.
-- No cryptographic key generation or payload encryption is implemented by the
-  BB84 simulation.
-- The dataset is a research benchmark and does not establish clinical safety,
-  generalization to real patients, or operational suitability.
-
-## Citation, license, and intended use
-
-No verified publication citation, DOI, publication status, or project license
-was found in the local materials. No `CITATION.cff` or `LICENSE` is supplied;
-these require author confirmation. Dataset licensing is separate and remains
-unresolved. See [`PUBLISHING_CHECKLIST.md`](PUBLISHING_CHECKLIST.md).
-
-This repository supports academic research and is **not** a certified medical
-device, clinical decision-support system, or production security system.
