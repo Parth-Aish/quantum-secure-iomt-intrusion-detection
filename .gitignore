@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.Python
+.venv/
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+
+# Editors and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dataset and derived models: do not publish without rights/privacy review
+data/*.csv
+results/results_final_leakfree/*.h5
+results/results_final_leakfree/*.keras
+results/results_final_leakfree/*.joblib
+
+# Recreated outputs and temporary files
+*.log
+*.tmp
+*.bak
+src/figures_leakfree/
+outputs/

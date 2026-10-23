@@ -1,0 +1,8 @@
+Model,Unknown Det. Rate,FPR,F1
+XGBoost,0.00%,0.43%,N/A
+LightGBM,0.00%,0.00%,N/A
+Isolation Forest,86.32%,9.91%,88.67%
+Dense Autoencoder,100.00%,9.91%,95.98%
+GRU Autoencoder,100.00%,11.37%,95.42%
+LSTM Autoencoder,100.00%,13.03%,94.78%
+One-Class SVM,100.00%,4.37%,98.19%

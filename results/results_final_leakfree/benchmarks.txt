@@ -1,0 +1,4 @@
+OC-SVM Size: 4.7206 MB
+OC-SVM Latency: 1.5115 ms/window
+LSTM Size: 0.3041 MB
+LSTM Latency: 4.4790 ms/window
